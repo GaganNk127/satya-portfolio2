@@ -12,8 +12,8 @@ const userData = {
   contact: {
     email: "satyapriyasahoo2004@gmail.com",
     phone: "+91-9692903917",
-    linkedin: "satyapriya07",
-    github: "Satyapriya-sahoo",
+    linkedin: "https://www.linkedin.com/in/satyapriya-sahoo/",
+    github: "https://github.com/satyapriya07",
   },
   skills: {
     'Programming Languages': ['C', 'Java', 'Python', 'R', 'JavaScript'],
@@ -170,14 +170,14 @@ const App = () => {
             </div>
             <div className="flex justify-center space-x-6 mt-8">
               <ContactLink
-                href={`https://www.linkedin.com/in/${userData.contact.linkedin}`}
+                href='https://www.linkedin.com/in/satyapriya-sahoo/'
                 icon={Linkedin}
                 label="LinkedIn Profile"
               >
                 LinkedIn
               </ContactLink>
               <ContactLink
-                href={`https://github.com/${userData.contact.github}`}
+                href='https://github.com/satyapriya07'
                 icon={Github}
                 label="GitHub Profile"
               >
@@ -296,9 +296,9 @@ const App = () => {
           <div className="flex justify-center space-x-4 mt-2">
             <a href={`mailto:${userData.contact.email}`} className="hover:text-cyan-400 transition">Email</a>
             <span className="text-gray-700">|</span>
-            <a href={`https://www.linkedin.com/in/${userData.contact.linkedin}`} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">LinkedIn</a>
+            <a href='https://www.linkedin.com/in/satyapriya-sahoo/' target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">LinkedIn</a>
             <span className="text-gray-700">|</span>
-            <a href={`https://github.com/${userData.contact.github}`} target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">GitHub</a>
+            <a href='https://github.com/satyapriya07' target="_blank" rel="noopener noreferrer" className="hover:text-cyan-400 transition">GitHub</a>
           </div>
         </div>
       </footer>
