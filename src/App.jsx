@@ -39,6 +39,16 @@ const userData = {
   ],
   projects: [
     {
+      title: "The Indian Heritage",
+      subtitle: "Full stack AI integrated, 2025",
+      description: [
+        "Developed a MERN-based e-commerce platform to showcase and sell traditional Indian clothing, jewellery, and handicrafts from all states",
+        "Implemented multi-user roles (Admin, Buyer, Seller) with product management, cart, wishlist, checkout, and Razorpay-based payment integration",
+      "Integrated AI-driven recommendations and NLP search to deliver personalized shopping experiences."
+      ],
+      tags: ["MERN , NLP, AI, Ecommerce"]
+    },
+    {
       title: "Student Drop-out Prediction",
       subtitle: "AI/ML Project, 2025",
       description: [
